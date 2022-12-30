@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;;
+}
+body{
+    background-image: linear-gradient(to top, rgba(228, 228, 228, 0), rgb(163, 163, 163)) no repeat;
+    height:1000px;
+    position:relative;
+    text-align: center;
+}
+.bg-box{
+    width:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.cipo{
+    width:40%;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.megveszem{
+    display: inline-block;
+    font-size: 5rem;
+    font-weight:bold;
+    padding:10px;
+    background-color: #BCDB4F;
+    
+    
+
+}
+.nike{
+    font-size: 4rem; 
+    font-weight:bold;
+    width: 1000px;
+}
